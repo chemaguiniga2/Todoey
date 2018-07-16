@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ItemStatus{
+class ItemStatus: Codable{
     var title : String = ""
     var status : Bool = false
 }
